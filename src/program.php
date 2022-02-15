@@ -1,9 +1,6 @@
 <?php
-$first=5;
-$second=4;
-$sum=$first+$second;
-echo $sum ;
-
+$world="the PHP World";
+echo "welcome to ".$world;
 ?>
 <!DOCTYPE html>
 <html lang="en">
