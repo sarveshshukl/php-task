@@ -1,7 +1,18 @@
 <?php
-$one="hi";
-$two="good morning";
-echo $one." ".$two;
+$marks=44;
+if($marks>=60){
+    echo "first division";
+}
+elseif($marks<=59 && $marks>=45){
+    echo "Second Division";
+}
+elseif($marks<=44 && $marks>=33){
+    echo "third division";
+}
+elseif($marks<33){
+    echo "fail";
+}
+
 
 ?>
 <!DOCTYPE html>
