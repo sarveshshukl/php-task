@@ -1,6 +1,8 @@
 <?php
-$world="the PHP World";
-echo "welcome to ".$world;
+$one="hi";
+$two="good morning";
+echo $one." ".$two;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
